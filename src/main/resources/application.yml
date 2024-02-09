@@ -19,3 +19,15 @@ spring:
     hibernate:
       ddl-auto: create
     show_sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  jwt:
+    secret: ZGF5b25lLXNwcmluZy1ib290LWRpdmlkZW5kLXByb2plY3QtdHV0b3JpYWwtand0LXNlY3JldC1rZXktYnV0LW5vdC1lbm91Z2gtZm9yLWtleS1zaXplCg==
+
+scheduler:
+  scrap:
+    yahoo: "0 0 0 * * *"

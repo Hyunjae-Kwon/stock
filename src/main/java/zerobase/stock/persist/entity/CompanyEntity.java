@@ -1,10 +1,11 @@
 package zerobase.stock.persist.entity;
 
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import zerobase.stock.model.Company;
+
+import javax.persistence.*;
 
 @Entity(name = "COMPANY")
 @Getter

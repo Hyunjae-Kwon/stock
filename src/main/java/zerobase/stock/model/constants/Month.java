@@ -25,7 +25,7 @@ public enum Month {
 
     public static int strToNumber(String s) {
         for (var m : Month.values()) {
-            if(m.s.equals(s)) {
+            if (m.s.equals(s)) {
                 return m.number;
             }
         }
